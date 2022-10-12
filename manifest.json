@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 3,
+    "name": "nahi", 
+    "version": "1.0",
+  
+    "description": "first cross-browser ext ",
+
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["nahi.js"]
+      }
+    ]
+  
+  }
+  
